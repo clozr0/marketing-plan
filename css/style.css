@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Readex Pro, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    direction: rtl;
+    font-family: Readex Pro, sans-serif;
+    height: 920px;
+}
+
+
+/* scroll */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #444444;
+}
+
+
+/* ----------------------------------- */
+/* introduction */
+
+
+#introduction {
+    background: #0044ff73;
+    color: #ffffff;
+    margin: 20px 10px 20px 140px;
+    border-radius: 20px;
+}
+
+.address {
+    font-size: 28px;
+    padding: 30px 30px 20px 0px;
+    color: #3836c4;
+}
+
+.article {
+    padding: 0px 30px 25px 30px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.b {
+    color: #000;
+    font-size: 19px;
+}
+
+.bb {
+    color: #447fff;
+    font-size: 19px;
+}
+
+.r {
+    color: #ff000080;
+    font-size: 18px;
+}
+
+.y {
+    color: #9b9b2c;
+    font-size: 18px;
+}
+
+.g {
+    color: green;
+    font-size: 18px;
+}
+
+/* ----------------------------------- */
+/* ICONS */
+
+#icon {
+    position: relative;
+}
+
+.icons {
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+}
+
+.targeting {
+    top: 25px;
+    right: 210px;
+}
+
+.message {
+    top: 25px;
+    right: 590px;
+}
+
+.communication {
+    top: 25px;
+    right: 1000px;
+}
+
+.filtering {
+    top: 325px;
+    right: 210px;
+}
+
+.taking-care-of-people {
+    top: 325px;
+    right: 600px;
+}
+
+.dollar {
+    top: 325px;
+    right: 1010px;
+}
+
+.gift {
+    top: 625px;
+    right: 200px;
+}
+
+.raising-his-values {
+    top: 625px;
+    right: 600px;
+}
+
+.customer-motivation {
+    top: 625px;
+    right: 990px;
+}
+
+/* ----------------------------------- */
+
+#table {
+    margin-right: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.title {
+    transform: rotate(90deg);
+    position: absolute;
+    color: white;
+    width: 300px;
+    text-align: center;
+    font-size: 19px;
+    padding: 5px 0px;
+}
+
+#title-red {
+    top: 130px;
+    right: -150px;
+    background-color: red;
+    border-radius: 20px 0px 0px 0px;
+}
+
+#title-yellow {
+    top: 430px;
+    right: -150px;
+    background-color: #c9c900;
+    border-right: 1px solid #414141;
+    border-left: 1px solid #414141;
+}
+
+#title-green {
+    top: 730px;
+    right: -150px;
+    background-color: green;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.links {
+    width: 400px;
+    height: 300px;
+    color: white;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.sections {
+    padding-top: 50px;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    text-align: center;
+    border-bottom: 1px solid #414141;
+    border-right: 1px solid #414141;
+}
+
+.section-1 {
+    top: -3px;
+    right: 17px;
+    background-color: #ff000080;
+}
+
+.section-2 {
+    top: -3px;
+    right: 417px;
+    background-color: #ff000080;
+}
+
+.section-3 {
+    top: -3px;
+    right: 817px;
+    background-color: #ff000080;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.section-1:hover,
+.section-2:hover,
+.section-3:hover {
+    background-color: #ff00009a;
+    transition: .5s;
+}
+
+.section-4 {
+    top: 297px;
+    right: 17px;
+    background-color: #c9c900a2;
+}
+
+.section-5 {
+    top: 297px;
+    right: 417px;
+    background-color: #c9c900a2;
+}
+
+.section-6 {
+    top: 297px;
+    right: 817px;
+    background-color: #c9c900a2;
+}
+
+.section-4:hover,
+.section-5:hover,
+.section-6:hover {
+    background-color: #c9c90086;
+    transition: .5s;
+}
+
+.section-7 {
+    top: 597px;
+    right: 17px;
+    background-color: #00800080;
+}
+
+.section-8 {
+    top: 597px;
+    right: 417px;
+    background-color: #00800080;
+}
+
+.section-9 {
+    top: 597px;
+    right: 817px;
+    background-color: #00800080;
+    border-radius: 0px 0px 0px 20px;
+}
+
+.section-7:hover,
+.section-8:hover,
+.section-9:hover {
+    background-color: #00800098;
+    transition: .5s;
+}
+
+
+
+@media (max-width : 440px) 
+{
+    body {
+        height: 900px;
+    }
+
+    #introduction {
+        width: 400px;
+        margin: 10px 5px 10px 5px;
+    }
+
+    .address {
+        font-size: 16px;
+    }
+
+    .article {
+        font-size: 11.5px;
+        line-height: 15px;
+        padding-top: 10px;
+    }
+
+    .b {
+        font-size: 12.5px;
+    }
+
+    .bb,
+    .r,
+    .y,
+    .g {
+        font-size: 12px;
+    }
+
+    #table {
+        width: 400px;
+    }
+
+    .links {
+        width: 323px;
+        height: 250px;
+    }
+
+    .title {
+        width: 750px;
+    }
+
+    #title-red {
+        top: 355px;
+        right: -360px;
+    }
+
+    #title-yellow {
+        top: 1105px;
+        right: -360px;
+    }
+    
+    #title-green {
+        top: 1855px;
+        right: -360px;
+    }
+    
+    .sections {
+        width: 323px;
+        height: 250px;
+    }
+
+    .icons {
+        color: #000;
+        display: none;
+    }
+
+    .section-1 {
+        top: -2.8px;
+        right: 30px;
+        border-bottom: 2px solid #000000;
+        border-radius: 20px 0 0 0;
+    }
+
+    .section-2 {
+        top: 248px;
+        right: 30px;
+    }
+
+    .section-3 {
+        top: 497.5px;
+        right: 30px;
+        border-radius: 0px;
+    }
+
+    .section-4 {
+        top: 749px;
+        right: 30px;
+    }
+
+    .section-5 {
+        top: 999px;
+        right: 30px;
+    }
+
+    .section-6 {
+        top: 1249px;
+        right: 30px;
+    }
+
+    .section-7 {
+        top: 1499px;
+        right: 30px;
+    }
+
+    .section-8 {
+        top: 1748px;
+        right: 30px;
+    }
+
+    .section-9 {
+        top: 1997px;
+        right: 30px;
+    }
+}

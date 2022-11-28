@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Readex Pro, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    direction: rtl;
+    background: linear-gradient(to bottom right, #ff8484, #ffb6b6) ;
+}
+
+
+/* scroll */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #444;
+}
+
+/* --------------------------------------------- */
+
+.bg-color {
+    width: 100%;
+    background: linear-gradient(to bottom right, #ff8484, #ffb6b6) ;
+}
+
+.bg-color-g {
+    width: 100%;
+    background: linear-gradient(to bottom right, #1c741c, #3ce04a) ;
+}
+
+#article {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1px 20px 10px 20px;
+    background-color: #ffffff3d;
+    color: #000000;
+}
+
+#article-title {
+    margin: 40px 0px 20px 0px;
+    font-weight: bold;
+    color: #c20000;
+}
+
+.article-content {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 10px 20px 10px;
+    text-align: justify;
+    font-weight: 600;
+    color: #e6e6e6;
+}
+
+.article-content2 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+    font-weight: 600;
+    color: #e6e6e6;
+}
+
+.content {
+    margin-right: 110px;
+    width: 500px;
+}
+
+
+.black {
+    color: #000;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.blue {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #0024c2;
+    font-weight: bold;
+}
+
+.green {
+    font-weight: bold;
+    color: #1aa010;
+}
+
+#p-title {
+    font-size: 20px;
+    background-color: #dad078;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+
+
+@media (max-width: 440px) 
+
+{
+    #article {
+        width: 100%;
+    }
+
+    #article-title {
+        font-size: 21px;
+    }
+
+    .article-content {
+        font-size: 17px;
+    }
+
+    .article-content2 {
+        font-size: 17px;
+    }
+
+    .balck {
+        font-size: 17px;
+    }
+
+    .p {
+        margin-bottom: 15px;
+    }
+
+    .content {
+        width: 360px;
+        margin-right: 15px;
+        font-size: 14px;
+    }
+}
