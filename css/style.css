@@ -346,8 +346,7 @@ body {
     }
 
     .icons {
-        color: #000;
-        display: none;
+        color: #ffffff;
     }
 
     .section-1 {
@@ -396,5 +395,50 @@ body {
     .section-9 {
         top: 1997px;
         right: 30px;
+    }
+
+    .targeting {
+        top: 20px;
+        right: 185px;
+    }
+
+    .message {
+        top: 270px;
+        right: 170px;
+    }
+
+    .communication {
+        top: 520px;
+        right: 175px;
+    }
+
+    .filtering {
+        top: 775px;
+        right: 180px;
+    }
+
+    .taking-care-of-people {
+        top: 1020px;
+        right: 180px;
+    }
+
+    .dollar {
+        top: 1275px;
+        right: 180px;
+    }
+
+    .gift {
+        top: 1520px;
+        right: 175px;
+    }
+
+    .raising-his-values {
+        top: 1770px;
+        right: 165px;
+    }
+
+    .customer-motivation {
+        top: 2020px;
+        right: 165px;
     }
 }
